@@ -22,7 +22,7 @@ export default function Footer() {
 
         {/* Copyright */}
         <p className="m-0">
-          &copy; {new Date().getFullYear()} MyWebsite | Built with ❤️ using React
+          &copy; {new Date().getFullYear()} Gemegai Jaya | Muhammad Ezah Septiyan
         </p>
       </div>
     </footer>
