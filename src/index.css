@@ -1,0 +1,230 @@
+/* Global Style */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+/* Navbar */
+.nav-link {
+  font-weight: 500;
+  transition: color 0.3s;
+}
+.nav-link.active {
+  color: #ffc107 !important;
+  font-weight: 600;
+}
+
+/* Team Card */
+.team-card {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.team-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* 🔹 Hero Section */
+.hero {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url("https://images.unsplash.com/photo-1522199710521-72d69614c702?w=1600")
+      center/cover no-repeat;
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 🔹 Feature Cards */
+.feature-card {
+  border: none;
+  border-radius: 15px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.feature-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+.feature-icon {
+  font-size: 2rem;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* 🔹 CTA Section */
+.cta-section {
+  background: linear-gradient(135deg, #007bff, #6610f2);
+}
+
+/* 🔹 Contact Page */
+.contact-page {
+  background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+}
+
+.contact-page .card {
+  border-radius: 15px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.contact-page .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* 🔹 About Page */
+.about-page {
+  background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+}
+
+.about-page .card {
+  border-radius: 15px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.about-page .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.about-page .timeline .list-group-item {
+  border: none;
+  border-left: 4px solid #0d6efd;
+  margin-bottom: 10px;
+  padding-left: 15px;
+  text-align: left;
+  background: #fff;
+  border-radius: 10px;
+}
+
+/* 🔹 Team Section */
+.team-section {
+  background: linear-gradient(135deg, #f8f9fa, #eef2f7);
+}
+
+.team-card {
+  border-radius: 20px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.team-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+.team-img {
+  max-width: 180px;
+  height: 180px;
+  object-fit: cover;
+  margin: 0 auto;
+  border: 5px solid #fff;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.team-card:hover .team-img {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(13, 110, 253, 0.5);
+}
+
+/* 🔹 Footer Styling */
+.footer {
+  background: linear-gradient(135deg, #212529, #343a40);
+}
+
+.footer-icon {
+  font-size: 1.5rem;
+  color: #adb5bd;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.footer-icon:hover {
+  color: hsl(216, 98%, 52%); /* biru bootstrap */
+  transform: scale(1.2);
+}
+
+/* Navbar Custom */
+.custom-navbar {
+  background: linear-gradient(90deg, #0d6efd, #6610f2);
+}
+
+/* Nav Links Hover */
+.custom-navbar .nav-link {
+  transition: color 0.3s;
+}
+.custom-navbar .nav-link:hover {
+  color: #ffc107; /* kuning */
+}
+
+/* Search Bar */
+.search-input {
+  border-radius: 50px;
+  padding-left: 15px;
+  transition: box-shadow 0.3s;
+}
+.search-input:focus {
+  box-shadow: 0 0 10px rgba(13, 110, 253, 0.5);
+}
+
+.search-btn {
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 12px;
+  transition: transform 0.2s;
+}
+
+.search-btn:hover {
+  transform: scale(1.1);
+}
+
+
+/* Navbar gradient modern */
+.gj-navbar {
+  background: linear-gradient(90deg, #0d6efd, #6610f2);
+  transition: background 0.3s;
+}
+
+/* Hover effect brand */
+.gj-navbar .navbar-brand:hover {
+  color: #ffc107;
+  transition: color 0.3s;
+}
+
+/* Nav links hover */
+.gj-navbar .nav-link {
+  transition: color 0.3s;
+}
+.gj-navbar .nav-link:hover {
+  color: #ffc107;
+}
+
+/* Search input */
+.search-input {
+  border-radius: 50px;
+  padding-left: 15px;
+  transition: box-shadow 0.3s;
+}
+.search-input:focus {
+  box-shadow: 0 0 10px rgba(13, 110, 253, 0.5);
+}
+
+/* Search button */
+.search-btn {
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 12px;
+  transition: transform 0.2s;
+}
+.search-btn:hover {
+  transform: scale(1.1);
+}
+
